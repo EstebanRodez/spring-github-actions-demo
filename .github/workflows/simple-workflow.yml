@@ -4,3 +4,12 @@ on:
   schedule:
     - cron: "0 * * * *"
   
+jobs:
+  multiple-commands:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: main_job
+        run: |
+          echo "Récupération du code source"
+          echo "Vérification terminée"
