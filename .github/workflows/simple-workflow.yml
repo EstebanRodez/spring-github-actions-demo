@@ -5,7 +5,7 @@ on:
     - cron: "0 * * * *"
   
 jobs:
-  multiple-commands:
+  main_job:
     runs-on: ubuntu-latest
 
     steps:
